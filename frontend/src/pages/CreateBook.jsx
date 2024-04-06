@@ -22,7 +22,7 @@ const CreateBooks = () => {
     setLoading(true);
     axios
       // .post('http://52.91.59.56:5555/books', data)
-      .post('http://3.145.48.210:5555/books', data)
+      .post('http://18.118.164.93:5555/books', data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Book Created successfully', { variant: 'success' });
