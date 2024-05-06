@@ -17,7 +17,7 @@ const EditBook = () => {
   useEffect(() => {
     setLoading(true);
     // axios.get(`http://52.91.59.56:5555/books/${id}`)
-    axios.get(`http://18.118.164.93:5555/books/${id}`)
+    axios.get(`http://54.242.148.213:5555/books/${id}`)
     .then((response) => {
         setAuthor(response.data.author);
         setPublishYear(response.data.publishYear)
